@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: small;
+    font-family: Georgia;
+}
+th, td {
+  padding: 15px;
+}
+#header{
+    background-color: white;
+}
+
+#c1 {
+    font-style: italic;
+    font-weight: lighter;
+}
+table tr:nth-child(odd) {
+  background-color: lightsteelblue;
+}
+table tr:nth-child(even) {
+  background-color: wheat;
+}
+
+#content{
+    background-color: coral;
+    border: 2px solid aqua;
+    font-family: Georgia;
+}
+.outer-content{
+    margin-top:20px;
+    background-color: hotpink;
+    width: 75%;
+    alignment: left;
+    padding:30px;
+}
+.inner-content {
+    width:75%;
+    background-color: cyan;
+    margin: 0 auto;
+    padding: 10px;
+}
+fieldset {
+    font-family: Georgia;
+    font-size: small;
+}
